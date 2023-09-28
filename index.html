@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.8.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- font-awesome -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>X-School</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="menu-icon">
+        <span class="fas fa-bars"></span>
+      </div>
+      <div class="logo">
+        <img src="assets/image/logo.png" alt="" srcset="" />
+      </div>
+      <ul class="nav-items">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">blogs</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+      <div class="search-icon">
+        <span class="fas fa-search"></span>
+      </div>
+      <div class="cancel-icon">
+        <span class="fas fa-times"></span>
+      </div>
+      <form action="" method="get">
+        <input
+          type="search"
+          placeholder="Search"
+          class="search-data"
+          required
+        />
+        <button type="submit" class="fa-solid fa-magnifying-glass"></button>
+      </form>
+    </nav>
+    <!-- Carousel Banner Start-->
+    <div class="carousel w-full pb-5">
+      <div id="slide1" class="carousel-item relative w-full flex text-center">
+        <div class="text-center banner w-full">
+          <div class="w-6/12">
+            <h1 class="text-6xl font-bold pb-3">Education Bright Future</h1>
+            <p class="font-semibold font-sans">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              cupiditate vel architecto quos sunt, dicta illum provident sequi
+              delectus officia?
+            </p>
+            <div class="my-5">
+              <button class="btn btn-warning hover:bg-white text-black focus:outline-none ">
+               <span class="font-semibold text-lg"> <i class="fa-solid fa-pen-to-square px-3"></i> Enroll Today</span>
+              </button>
+              <button class="btn btn-outline btn-warning">
+              <span class="font-semibold text-lg text-white"><i class="fa-solid fa-calendar-days px-3"></i> Schedule a Tour</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+        >
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+
+      <div id="slide2" class="carousel-item relative w-full">
+        <div class="text-center banner w-full">
+          <div class="w-6/12">
+            <h1 class="text-6xl font-bold pb-3">Hello Education</h1>
+            <p class="font-semibold font-sans">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              cupiditate vel architecto quos sunt, dicta illum provident sequi
+              delectus officia?
+            </p>
+            <div class="">
+              <button class="btn btn-outline btn-secondary">
+                Enroll Today
+              </button>
+              <button class="btn btn-outline btn-secondary">
+                Schedule a Tour
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+        >
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel Banner End-->
+  </body>
+  <script src="assets/js/app.js"></script>
+</html>
